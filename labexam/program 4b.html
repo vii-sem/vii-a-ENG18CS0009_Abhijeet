@@ -1,0 +1,25 @@
+<html>
+    <body>
+        <script>
+            var str=prompt("Enter the string: ","");
+            if(isNaN(str)){
+                str=str.toUpperCase()
+                for(var i=0;i<str.length;i++){
+                    if(str[i]=="A"||str[i]=="E"||str[i]=="O"||str[i]=="U"||str[i]=="I") break;
+                }
+                if(i<str.length) alert("The Vowel from left most side is at : "+ (i+1));
+                else alert("The vowel is not at all present");
+            }
+            else{
+                var num,rem,rev=0;
+                num=parseInt(str)
+                while(num!==0){
+                    rem=num%10;
+                    num=parseInt(num/10);
+                    rev=rev*10+rem;
+                }
+                alert("The everse of the "+ str + " is "+ rev);
+            }
+        </script>
+    </body>
+</html>

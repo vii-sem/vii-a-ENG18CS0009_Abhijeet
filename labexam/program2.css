@@ -1,0 +1,26 @@
+.left {
+  text-align: left;
+  color: blue;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.center {
+  text-align: center;
+  color: black;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+.right {
+  text-align: right;
+  color: red;
+  font-size: large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+#headline {
+  color: orange;
+  font-size: 22px;
+  font-family: arial;
+}
